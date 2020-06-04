@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar } from 'react-bootstrap';
 import { BrowserRouter as Router } from 'react-router-dom';
+import Routes from './Routes';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Navbar.Toggle />
           </Navbar.Header>
         </Navbar>
+        <Routes />
       </div>
     </Router>
   );
