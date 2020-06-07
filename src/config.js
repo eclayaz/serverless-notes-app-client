@@ -1,5 +1,6 @@
 export default {
   MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: 'pk_test_ACIMA1SltASPMnHPrnQx0jPF00Bx4tiPMA',
   s3: {
     REGION: 'ap-south-1',
     BUCKET: 'nd-note-app-uploads',
